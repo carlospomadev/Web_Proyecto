@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="imagenes/maletin.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="keywords" content="porfolio, carlos poma, thepowereducation, DAM">
+    <meta name="author" content="Carlos Poma Ramirez">
+    <meta name="title" content="Portfolio">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Carlos</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header> 
+    </div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/YO.jpeg" alt="foto">
+            </div>
+            <h1>Carlos Poma R.</h1>
+            <h2>Ingeniero de Software - Experto UI/UX</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>   
+            </div>
+        </div>
+    </section>
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Carlos Poma</span> Profesional Técnico con estudios de Ing. de Sistemas y Desarrollo de aplicaciones. Con dotes de liderazgo, pro activo, responsable, con disposición para el trabajo colaborativo, la gestión de proyectos, administración, innovación y mejora de los procesos tecnológicos. Más de 9 años de experiencia en tecnología e informática.</p>
+            <div class="fila">
+                <!--DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            30-09-1994
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 603 376 696
+                        </li>
+                         <li>
+                            <strong>E-mail</strong>
+                            c.poma.ramirez@gmail.com
+                        </li>
+                         <li>
+                            <strong>Website</strong>
+                            www.miportfolio.com
+                        </li>
+                            <li>
+                            <strong>Direción</strong>
+                            Calle Sanz Razo 23 1D 28038, Madrid
+                        </li>
+                         <li>
+                            <strong>Cargo</strong>
+                            Desarrollador Web
+                         </li>
+                    </ul>
+                    </div>
+                    <!--INTERESES-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">                            
+                            <div class="interes">
+                                <i class="fa-solid fa-futbol"></i>
+                                <span>FÚTBOL</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MÚSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                             <div class="interes">
+                                <i class="fa-solid fa-dumbbell"></i>
+                                <span>GYM</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-brands fa-apple"></i>
+                                <span>TECNOLOGÍA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-camera-retro"></i>
+                                <span>FOTOS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </section>
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical Skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso Java">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso sql">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoenequipo ">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso projectmanagement">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CV-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Informática</h4>
+                        <span class="casa">SENATI</span>
+                        <span class="fecha">2010-2013</span>
+                        <p>Técnico Informático. Mantenimiento y gestión de Sistemas informáticos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <span class="casa">Universidad Tecnológica del Perú</span>
+                        <span class="fecha">2018-2022</span>
+                        <p>Ingeniería de Sistemas en Universidad Tecnológica del Perú.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingeniero de Software</h4>
+                        <span class="casa">The Power Education</span>
+                        <span class="fecha">2025-Actualidad</span>
+                        <p>Desarrollador de Aplicaciones Mutiplataforma y Web.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Técnico Informático</h4>
+                        <span class="casa">Compucare S.A.</span>
+                        <span class="fecha">2014-2016</span>
+                        <p>Soporte técnico de equipos informáticos. Garantías de la marca Lenovo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gestor Informático</h4>
+                        <span class="casa">Compucare S.A.</span>
+                        <span class="fecha">2016-2018</span>
+                        <p>Administrador y gestor de garantías de equipos Microinformáticos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista de Sistemas</h4>
+                        <span class="casa">Komatsu Mitsui Maquinarias Perú S.A.</span>
+                        <span class="fecha">2018-2024</span>
+                        <p>Analista de Sistemas - Departamento de IT.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="imagenes/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Av. de los Rosales, 17, Usera
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contacto +34 603 376 696
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: c.poma.ramirez@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+        </div>
+    </footer>
+    <div class="aviso-cookies activo" id="aviso-cookies">
+        <img class="galleta" src="imagenes/cookie.svg" alt="galleta">
+        <h3 class="titulo-cookies">Cookies</h3>
+        <p class="texto-cookies">Utilizamos cookies propios y de terceros para mejorar nuestros servicios.</p>
+        <button class="boton-cookies" id="boton-aceptar-cookies"> De acuerdo</button>
+        <a class="enlace" href="aviso-cookies.html"> Aviso de Cookies</a>
+    </div>
+    <div class="fonde-aviso-cookies activo" id="fonde-aviso-cookies"></div>
+    <script src="script.js"></script>
+</body>
+</html>
